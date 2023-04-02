@@ -14,3 +14,12 @@
   - $ sudo add-apt-repository ppa:team-xbmc
   - $ sudo apt-get update
   - $ sudo apt-get install kodi
+
+* Chrome
+  - インストールはChromeのホームページからDL、*.debファイルを右クリックして"Open with another application"で
+  　実行する。
+  - プロキシ設定
+    - menulibreのインストール
+      $ sudo apt install menulibre
+      
+
