@@ -1,0 +1,14 @@
+
+
+
+* Bluetooth
+  - $ systemctl status bluetooth.service
+    -> status: Running かどうか確認
+  - $ sudo rfkill list all
+    -> 2: hci0: Bluetooth
+    -> Soft blocked: yes   <- yesだとつかえないのでnoにする必要あり
+  - $ sudo rfkill unblock all  <- これですべてnoになる
+  - 再起動で反映
+  
+
+
