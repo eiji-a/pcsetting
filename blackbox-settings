@@ -10,5 +10,7 @@
   - $ sudo rfkill unblock all  <- これですべてnoになる
   - 再起動で反映
   
-
-
+* KODI
+  - $ sudo add-apt-repository ppa:team-xbmc
+  - $ sudo apt-get update
+  - $ sudo apt-get install kodi
