@@ -22,4 +22,17 @@
     - menulibreのインストール
       $ sudo apt install menulibre
       
-
+* curl
+  - $ sudo apt install curl
+  
+* Git
+  - $ sudo apt install git
+  
+* Haskell
+  - 事前インストールモジュール
+    System requirements 
+      buld-essential curl libffi-dev libffi8ubuntu1 libgmp-dev libgmp10
+      libncurses-dev libncurses5 libtinfo5
+  
+  - GHCup install
+    - $ sudo curl --proto '=https' --tlsv1.2 -sSf https://get-ghcup.haskell.org | sh
