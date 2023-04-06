@@ -36,3 +36,9 @@
   
   - GHCup install
     - $ sudo curl --proto '=https' --tlsv1.2 -sSf https://get-ghcup.haskell.org | sh
+
+* キーボードのctrlとcapsの交換
+  - /etc/default/keyboard ファイルを編集
+    XKBOPTIONS="ctrl:swapcaps"    <- 行の編集
+    
+    
