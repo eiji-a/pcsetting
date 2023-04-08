@@ -41,4 +41,8 @@
   - /etc/default/keyboard ファイルを編集
     XKBOPTIONS="ctrl:swapcaps"    <- 行の編集
     
+* Ruby
+  - sudo apt install ruby
     
+* Applications
+  - Darktable
