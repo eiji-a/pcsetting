@@ -43,6 +43,7 @@
     
 * Ruby
   - sudo apt install ruby
+  - gem install nokogiri
     
 * Applications
   - Darktable
