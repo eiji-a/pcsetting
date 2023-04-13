@@ -47,3 +47,7 @@
     
 * Applications
   - Darktable
+  
+* SMB共有
+  - $  sudo apt install smbclient cifs-utils
+
