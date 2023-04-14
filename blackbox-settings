@@ -13,7 +13,7 @@ network:
     wlp3s0:
       dhcp4: false
       dhcp6: false
-      addresses: [192.168.11.210/24]
+      addresses: [192.168.11.211/24]
       nameservers: 
         addresses: [192.168.11.1,8.8.8.8]
       routes:
@@ -90,6 +90,11 @@ network:
 * net-tools (ifconfig, etc.)
   - $ sudo apt install net-tools
 
-
+* Rust
+  - $ sudo curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+  - $ source "$HOME/.cargo/env"
+  - $ sudo apt install cmake
+  - $ sudo apt install pkg-config
+  - $ sudo apt install libfontconfig1-dev
 
 
