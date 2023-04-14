@@ -1,5 +1,29 @@
 
 
+* 固定IP設定
+  - WiFiデバイス確認
+  - $ ip a
+      :
+    wlp3s0 ...
+  - /etc/netplan/99-config.ymlを作成
+network:
+  version: 2
+  renderer: networkd
+  wifis:
+    wlp3s0:
+      dhcp4: false
+      dhcp6: false
+      addresses: [192.168.11.210/24]
+      nameservers: 
+        addresses: [192.168.11.1,8.8.8.8]
+      routes:
+        - to: default
+          via: 192.168.11.1
+      access-points:
+        "KYOTARO-4F5G2":
+          password: "akagiaikotokuhirokyoko"
+        "KYOTARO-4F5G":
+          password: "akagiaikotokuhirokyoko"
 
 * Bluetooth
   - $ systemctl status bluetooth.service
@@ -50,4 +74,22 @@
   
 * SMB共有
   - $  sudo apt install smbclient cifs-utils
+
+* SSH server
+  - $ sudo apt install openssh-client
+  - $ sudo apt install openssh-server
+  - $ cd /etc/ssh
+  - $ sudo cp sshd_config sshd_config.org
+  - /etc/ssh/sshd_config を編集
+    PermitRootLogin no
+    PasswordAuthentication yes
+    PermitEmptyPasswords no
+    PubkeyAuthentication yes
+  - $ sudo service ssh restart
+
+* net-tools (ifconfig, etc.)
+  - $ sudo apt install net-tools
+
+
+
 
