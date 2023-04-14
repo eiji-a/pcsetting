@@ -24,6 +24,7 @@ network:
           password: "akagiaikotokuhirokyoko"
         "KYOTARO-4F5G":
           password: "akagiaikotokuhirokyoko"
+  - $ sudo netplan apply
 
 * Bluetooth
   - $ systemctl status bluetooth.service
