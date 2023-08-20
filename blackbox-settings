@@ -111,5 +111,19 @@ network:
   - $ sudo apt update -y && sudo apt upgrade -y
   - $ sudo apt install gwenview -y
 
+* MariaDB
+  - $ apt install mariadb-server
+  - $ sudo mysql_secure_installation 
+    （質問に回答する）
+Switch to unix_socket authentication [Y/n] n
+Change the root password? [Y/n] y
+New password: 
+Re-enter new password: 
+Remove anonymous users? [Y/n] y
+Disallow root login remotely? [Y/n] y
+Remove test database and access to it? [Y/n] y
+Reload privilege tables now? [Y/n] y
+　　:
+Thanks for using MariaDB!
 
 
