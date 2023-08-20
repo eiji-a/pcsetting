@@ -108,5 +108,9 @@ network:
 * Ruby Gems Chrome-driver
   - $ sudo gem install selenium-webdriver
 
+* Gwenview
+  - $ sudo apt update -y && sudo apt upgrade -y
+  - $ sudo apt install gwenview -y
+
 
 
