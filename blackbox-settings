@@ -99,9 +99,14 @@ network:
   - $ sudo apt install libfontconfig1-dev
 
 * Chrome Driver
+  - 参考URL:  https://nashiblog.netlify.app/blog/javascript/selenium/
   - URL: https://googlechromelabs.github.io/chrome-for-testing/#stable
   - FILE: https://edgedl.me.gvt1.com/edgedl/chrome/chrome-for-testing/116.0.5845.96/linux64/chromedriver-linux64.zip
   - $ unzip chromedriver-linux64.zip
   - $ sudo mv chromedriver-linux64/chromedriver /usr/local/bin
+
+* Ruby Gems Chrome-driver
+  - $ sudo gem install selenium-webdriver
+
 
 
