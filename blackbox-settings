@@ -126,4 +126,11 @@ Reload privilege tables now? [Y/n] y
 　　:
 Thanks for using MariaDB!
 
+  - 文字コードをutf8mb4にする
+  - 特にクライアントソフトで入力できるようにする
+  - /etc/mysql/mariadb.conf.d/50-client.cnf に以下を追加
+　　[client]
+   default-character-set=utf8mb4
+
+
 
