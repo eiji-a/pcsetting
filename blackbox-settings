@@ -67,7 +67,7 @@ network:
     XKBOPTIONS="ctrl:swapcaps"    <- 行の編集
     
 * Ruby
-  - sudo apt install ruby
+  - sudo apt install ruby ruby-dev
   - gem install nokogiri
   - gem install sqlite3
   - gem install selenium-webdriver
